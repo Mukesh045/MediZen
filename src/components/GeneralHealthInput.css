@@ -1,0 +1,250 @@
+.general-health-input {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.input-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-header h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.input-header p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.condition-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+  .condition-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.condition-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.condition-btn:hover {
+  border-color: #2e7d32;
+  background: #f0f8ff;
+}
+
+.condition-btn.selected {
+  border-color: #2e7d32;
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  color: white;
+}
+
+.condition-btn.selected .condition-label {
+  color: white;
+}
+
+.condition-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.condition-label {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+  font-weight: 500;
+}
+
+.symptoms-section {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.symptoms-section h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 500px) {
+  .symptoms-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.symptom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  background: white;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.symptom-checkbox:hover {
+  background: #f0f0f0;
+}
+
+.symptom-checkbox input {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.symptom-checkbox input:checked + .checkbox-custom {
+  background: #2e7d32;
+  border-color: #2e7d32;
+}
+
+.symptom-checkbox input:checked + .checkbox-custom::after {
+  content: '✓';
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.symptom-text {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.custom-description {
+  margin-bottom: 20px;
+}
+
+.custom-description label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.custom-description textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.custom-description textarea:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+.loading-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quick-tips {
+  background: #e3f2fd;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-top: 25px;
+}
+
+.quick-tips h5 {
+  margin: 0 0 10px 0;
+  color: #1565c0;
+  font-size: 0.95rem;
+}
+
+.quick-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quick-tags button {
+  padding: 8px 16px;
+  background: white;
+  border: 1px solid #90caf9;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #1565c0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quick-tags button:hover {
+  background: #1565c0;
+  color: white;
+  border-color: #1565c0;
+}

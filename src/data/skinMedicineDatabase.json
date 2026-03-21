@@ -1,0 +1,667 @@
+{
+  "skinMedicines": [
+    {
+      "id": "skin_1",
+      "name": "Clindamycin + Benzoyl Peroxide Gel",
+      "category": "acne",
+      "higherPrice": true,
+      "price": 850,
+      "priceUnit": "per tube",
+      "uses": ["acne", "pimples", "breakout", "治痘", "acne vulgaris"],
+      "dosage": "Apply once or twice daily to affected areas",
+      "application": "Clean and dry skin, apply thin layer",
+      "sideEffects": ["dryness", "redness", "peeling", "mild burning"],
+      "contraindications": ["hypersensitivity to clindamycin or benzoyl peroxide"],
+      "warnings": ["Avoid contact with eyes, mouth, and mucous membranes", "May bleach hair or fabrics"],
+      "tips": ["Use sunscreen during day", "Start with once daily to assess tolerance"],
+      "effectiveness": "High - combination antibiotic and keratolytic"
+    },
+    {
+      "id": "skin_1_alt",
+      "name": "Benzoyl Peroxide Gel 2.5%",
+      "category": "acne",
+      "higherPrice": false,
+      "price": 180,
+      "priceUnit": "per tube",
+      "uses": ["acne", "pimples", "breakout", "治痘", "acne vulgaris"],
+      "dosage": "Apply once or twice daily to affected areas",
+      "application": "Clean and dry skin, apply thin layer",
+      "sideEffects": ["dryness", "redness", "peeling", "mild burning"],
+      "contraindications": ["hypersensitivity to benzoyl peroxide"],
+      "warnings": ["May bleach hair or fabrics", "Can cause dryness"],
+      "tips": ["Start with lower concentration", "Use sunscreen during day"],
+      "effectiveness": "Medium-High - works well for mild to moderate acne",
+      "alternativeTo": "skin_1",
+      "alternativeReason": "Same active ingredient (benzoyl peroxide) at lower concentration, effective for mild-moderate acne"
+    },
+    {
+      "id": "skin_2",
+      "name": "Adapalene Gel 0.1% ( Differin )",
+      "category": "acne",
+      "higherPrice": true,
+      "price": 650,
+      "priceUnit": "per tube",
+      "uses": ["acne", "pimples", "blackheads", "whiteheads", "comedonal acne"],
+      "dosage": "Apply once daily at night",
+      "application": "Clean and dry face, apply small amount to entire face",
+      "sideEffects": ["dryness", "redness", "peeling", "stinging"],
+      "contraindications": ["hypersensitivity to adapalene"],
+      "warnings": ["May cause initial breakouts", "Avoid sun exposure"],
+      "tips": ["Use at night only", "Results visible in 4-8 weeks", "Moisturize to reduce dryness"],
+      "effectiveness": "High - specifically effective for blackheads and whiteheads"
+    },
+    {
+      "id": "skin_2_alt",
+      "name": "Tretinoin Cream 0.025%",
+      "category": "acne",
+      "higherPrice": false,
+      "price": 280,
+      "priceUnit": "per tube",
+      "uses": ["acne", "pimples", "blackheads", "wrinkles", "skin renewal"],
+      "dosage": "Apply once daily at night",
+      "application": "Clean and dry face, apply small amount",
+      "sideEffects": ["dryness", "redness", "peeling", "sunburn sensation"],
+      "contraindications": ["pregnancy", "eczema", "sunburn"],
+      "warnings": ["Increases sun sensitivity", "May cause initial irritation"],
+      "tips": ["Use sunscreen daily", "Start 2-3 times per week", "Avoid around eyes"],
+      "effectiveness": "High - proven retinoid for acne and skin renewal",
+      "alternativeTo": "skin_2",
+      "alternativeReason": "Classic retinoid with proven efficacy, more affordable option"
+    },
+    {
+      "id": "skin_3",
+      "name": "Mometasone Furoate Cream 0.1%",
+      "category": "eczema_dermatitis",
+      "higherPrice": true,
+      "price": 420,
+      "priceUnit": "per tube",
+      "uses": ["eczema", "dermatitis", "inflammation", "itching", "redness", "skin inflammation"],
+      "dosage": "Apply thin layer once or twice daily",
+      "application": "Apply to affected area, gently rub in",
+      "sideEffects": ["skin thinning", "burning", "stinging", "hypopigmentation"],
+      "contraindications": ["skin infection", "rosacea", "acne"],
+      "warnings": ["Do not use on face for extended periods", "Avoid occlusive dressings"],
+      "tips": ["Use for short periods only", "Can be used on body eczema"],
+      "effectiveness": "High - potent topical steroid for acute flare-ups"
+    },
+    {
+      "id": "skin_3_alt",
+      "name": "Hydrocortisone Cream 1%",
+      "category": "eczema_dermatitis",
+      "higherPrice": false,
+      "price": 95,
+      "priceUnit": "per tube",
+      "uses": ["eczema", "dermatitis", "rash", "itching", "insect bites", "mild inflammation"],
+      "dosage": "Apply 1-2 times daily to affected area",
+      "application": "Apply thin layer and rub gently",
+      "sideEffects": ["rare with mild steroid", "mild burning if too much"],
+      "contraindications": ["infected skin", "open wounds"],
+      "warnings": ["Mild steroid - safe for short-term use", "Avoid eyes"],
+      "tips": ["Good for mild eczema and irritation", "Safe for children over 2 years"],
+      "effectiveness": "Medium - effective for mild-moderate conditions",
+      "alternativeTo": "skin_3",
+      "alternativeReason": "Mild steroid, safer for long-term use and sensitive areas"
+    },
+    {
+      "id": "skin_4",
+      "name": "Tacrolimus Ointment 0.1% ( Protopic )",
+      "category": "eczema_dermatitis",
+      "higherPrice": true,
+      "price": 1200,
+      "priceUnit": "per tube",
+      "uses": ["eczema", "atopic dermatitis", "persistent rash", "face eczema"],
+      "dosage": "Apply twice daily until cleared",
+      "application": "Apply thin layer to affected areas",
+      "sideEffects": ["burning sensation", "itching", "increased risk of infection"],
+      "contraindications": ["immunodeficiency", "skin infection"],
+      "warnings": ["May increase skin cancer risk with long use", "Avoid sun exposure"],
+      "tips": ["Steroid-free option", "Good for face and sensitive areas"],
+      "effectiveness": "High - steroid-free, for sensitive skin areas"
+    },
+    {
+      "id": "skin_4_alt",
+      "name": "Calamine Lotion",
+      "category": "eczema_dermatitis",
+      "higherPrice": false,
+      "price": 65,
+      "priceUnit": "per bottle",
+      "uses": ["itching", "rash", "insect bites", "prickly heat", "mild skin irritation"],
+      "dosage": "Apply as needed to itchy areas",
+      "application": "Shake well, apply with cotton pad or directly",
+      "sideEffects": ["very rare", "mild dryness"],
+      "contraindications": ["open wounds", "infected skin"],
+      "warnings": ["For external use only"],
+      "tips": ["Cooling effect provides relief", "Safe for children"],
+      "effectiveness": "Medium - soothing for mild itching and irritation",
+      "alternativeTo": "skin_4",
+      "alternativeReason": "Safe, affordable option for mild itching and irritation"
+    },
+    {
+      "id": "skin_5",
+      "name": "Miconazole Nitrate Cream 2%",
+      "category": "fungal",
+      "higherPrice": true,
+      "price": 380,
+      "priceUnit": "per tube",
+      "uses": ["ringworm", "tinea", "fungal infection", "athlete's foot", "jock itch", "candidiasis"],
+      "dosage": "Apply twice daily for 2-4 weeks",
+      "application": "Clean and dry area, apply thin layer",
+      "sideEffects": ["mild burning", "itching", "redness"],
+      "contraindications": ["hypersensitivity to miconazole"],
+      "warnings": ["Continue treatment for full course", "Avoid occlusive dressings"],
+      "tips": ["Keep area dry", "Wash hands before/after application"],
+      "effectiveness": "High - broad-spectrum antifungal"
+    },
+    {
+      "id": "skin_5_alt",
+      "name": "Clotrimazole Cream 1%",
+      "category": "fungal",
+      "higherPrice": false,
+      "price": 120,
+      "priceUnit": "per tube",
+      "uses": ["ringworm", "tinea", "fungal infection", "athlete's foot", "candidiasis"],
+      "dosage": "Apply twice daily for 2-4 weeks",
+      "application": "Clean and dry area, apply and rub gently",
+      "sideEffects": ["mild irritation", "burning", "redness"],
+      "contraindications": ["hypersensitivity to clotrimazole"],
+      "warnings": ["For external use only", "Avoid contact with eyes"],
+      "tips": ["Continue even if symptoms improve", "Keep affected area dry"],
+      "effectiveness": "High - effective against most skin fungi",
+      "alternativeTo": "skin_5",
+      "alternativeReason": "Equally effective antifungal, budget-friendly option"
+    },
+    {
+      "id": "skin_6",
+      "name": "Terbinafine Cream 1%",
+      "category": "fungal",
+      "higherPrice": true,
+      "price": 450,
+      "priceUnit": "per tube",
+      "uses": ["ringworm", "tinea", "athlete's foot", "nail fungus", "fungal infection"],
+      "dosage": "Apply once or twice daily for 1-2 weeks",
+      "application": "Clean and dry, apply thin layer",
+      "sideEffects": ["redness", "itching", "burning"],
+      "contraindications": ["hypersensitivity to terbinafine"],
+      "warnings": ["Not for nail fungus - oral treatment needed"],
+      "tips": ["Quick action - improvement in few days", "Complete full course"],
+      "effectiveness": "High - fungicidal, kills fungus rather than just inhibiting"
+    },
+    {
+      "id": "skin_6_alt",
+      "name": "Tolnaftate Cream 1%",
+      "category": "fungal",
+      "higherPrice": false,
+      "price": 150,
+      "priceUnit": "per tube",
+      "uses": ["ringworm", "athlete's foot", "jock itch", "tinea"],
+      "dosage": "Apply twice daily for 2-4 weeks",
+      "application": "Clean and dry area, apply thin layer",
+      "sideEffects": ["mild irritation", "sensitivity"],
+      "contraindications": ["hypersensitivity to tolnaftate"],
+      "warnings": ["Avoid contact with eyes", "Discontinue if irritation occurs"],
+      "tips": ["Effective for common fungal infections"],
+      "effectiveness": "Medium-High - works well for most superficial fungal infections",
+      "alternativeTo": "skin_6",
+      "alternativeReason": "Proven antifungal, more affordable"
+    },
+    {
+      "id": "skin_7",
+      "name": "Silicone Gel Sheet / Scar Gel",
+      "category": "scars",
+      "higherPrice": true,
+      "price": 800,
+      "priceUnit": "per sheet pack",
+      "uses": ["scar", "old scars", "surgical scars", "burn scars", "keloid"],
+      "dosage": "Apply silicone gel or wear sheet 12-24 hours daily",
+      "application": "Clean dry skin, apply gel or place sheet",
+      "sideEffects": ["rare", "mild irritation"],
+      "contraindications": ["open wounds", "infected skin"],
+      "warnings": ["Not for fresh wounds - wait 2 weeks"],
+      "tips": ["Best for new scars", "Requires consistent use for months"],
+      "effectiveness": "High - clinically proven for scar reduction"
+    },
+    {
+      "id": "skin_7_alt",
+      "name": "Mederma Scar Cream",
+      "category": "scars",
+      "higherPrice": false,
+      "price": 350,
+      "priceUnit": "per tube",
+      "uses": ["scar", "old scars", "surgical scars", "stretch marks", "acne scars"],
+      "dosage": "Apply 3-4 times daily, massage gently",
+      "application": "Clean skin, apply and massage in circular motion",
+      "sideEffects": ["rare", "mild itching"],
+      "contraindications": ["open wounds", "third-degree burns"],
+      "warnings": ["Results take time - weeks to months"],
+      "tips": ["Massage helps absorption", "Consistent use important"],
+      "effectiveness": "Medium-High - helps improve scar appearance",
+      "alternativeTo": "skin_7",
+      "alternativeReason": "More affordable scar treatment option"
+    },
+    {
+      "id": "skin_8",
+      "name": "Povidone-Iodine Solution",
+      "category": "wound_care",
+      "higherPrice": true,
+      "price": 280,
+      "priceUnit": "per bottle",
+      "uses": ["wound", "cut", "scratch", "infection prevention", "pre-operative skin prep"],
+      "dosage": "Apply to clean wound 2-3 times daily",
+      "application": "Clean wound, apply solution with cotton",
+      "sideEffects": ["temporary staining", "rare sensitivity"],
+      "contraindications": ["thyroid problems", "iodine allergy", "burns on large areas"],
+      "warnings": ["Do not use with hydrogen peroxide together"],
+      "tips": ["Excellent for infection prevention", "Brown staining is normal"],
+      "effectiveness": "High - broad-spectrum antiseptic"
+    },
+    {
+      "id": "skin_8_alt",
+      "name": "Neosporin / Bacitracin Ointment",
+      "category": "wound_care",
+      "higherPrice": false,
+      "price": 120,
+      "priceUnit": "per tube",
+      "uses": ["minor cuts", "scrapes", "burns", "wound infection prevention"],
+      "dosage": "Apply thin layer 1-3 times daily",
+      "application": "Clean wound, apply thin layer, cover if needed",
+      "sideEffects": ["rare allergic reaction", "mild irritation"],
+      "contraindications": ["sensitivity to neomycin or bacitracin"],
+      "warnings": ["Stop if rash develops", "Not for deep wounds"],
+      "tips": ["Good for everyday minor injuries", "Keep wound covered"],
+      "effectiveness": "High - prevents infection in minor wounds",
+      "alternativeTo": "skin_8",
+      "alternativeReason": "Antibiotic ointment, easy to use for minor wounds"
+    },
+    {
+      "id": "skin_9",
+      "name": "Salicylic Acid 40% (Wart Remover)",
+      "category": "warts",
+      "higherPrice": true,
+      "price": 550,
+      "priceUnit": "per bottle",
+      "uses": ["warts", "plantar warts", "common warts", "verruca"],
+      "dosage": "Apply directly to wart, allow to dry, once daily",
+      "application": "Apply to wart only, protect surrounding skin",
+      "sideEffects": ["stinging", "burning", "peeling", "discomfort"],
+      "contraindications": ["diabetes", "poor circulation", "infected warts"],
+      "warnings": ["May take weeks to months", "Protect healthy skin"],
+      "tips": ["File down dead skin before application", "Be patient - treatment takes time"],
+      "effectiveness": "High - keratolytic removes wart tissue"
+    },
+    {
+      "id": "skin_9_alt",
+      "name": "Salicylic Acid 17% Solution",
+      "category": "warts",
+      "higherPrice": false,
+      "price": 180,
+      "priceUnit": "per bottle",
+      "uses": ["warts", "calluses", "corns"],
+      "dosage": "Apply daily to affected area",
+      "application": "Apply to wart/callus, allow to dry",
+      "sideEffects": ["mild stinging", "peeling"],
+      "contraindications": ["diabetes", "poor circulation"],
+      "warnings": ["Avoid healthy skin", "May take several weeks"],
+      "tips": ["Soak area first for better penetration", "File dead skin"],
+      "effectiveness": "Medium-High - effective for most common warts",
+      "alternativeTo": "skin_9",
+      "alternativeReason": "Lower concentration, works for mild-moderate cases"
+    },
+    {
+      "id": "skin_10",
+      "name": "Permethrin Cream 5%",
+      "category": "parasitic",
+      "higherPrice": true,
+      "price": 650,
+      "priceUnit": "per tube",
+      "uses": ["scabies", "lice", "parasitic skin infection"],
+      "dosage": "Apply from neck down, leave overnight, repeat in 1 week",
+      "application": "Apply to clean dry skin, leave for 8-14 hours",
+      "sideEffects": ["mild burning", "itching", "redness"],
+      "contraindications": ["hypersensitivity to permethrin"],
+      "warnings": ["Treat all household members", "Wash all bedding and clothes"],
+      "tips": ["One application usually sufficient", "Itch may continue for weeks"],
+      "effectiveness": "High - gold standard for scabies treatment"
+    },
+    {
+      "id": "skin_10_alt",
+      "name": "Benzyl Benzoate Lotion 25%",
+      "category": "parasitic",
+      "higherPrice": false,
+      "price": 200,
+      "priceUnit": "per bottle",
+      "uses": ["scabies", "lice"],
+      "dosage": "Apply from neck down, leave for 24 hours",
+      "application": "Apply to clean skin, allow to dry",
+      "sideEffects": ["burning", "irritation", "rare allergic reaction"],
+      "contraindications": ["broken skin", "acute eczema"],
+      "warnings": ["May need repeat application", "Strong odor"],
+      "tips": ["Traditional scabies treatment", "Can be used for lice"],
+      "effectiveness": "Medium-High - effective alternative for scabies",
+      "alternativeTo": "skin_10",
+      "alternativeReason": "More affordable scabies treatment option"
+    },
+    {
+      "id": "skin_11",
+      "name": "Betamethasone + Salicylic Acid Ointment",
+      "category": "psoriasis",
+      "higherPrice": true,
+      "price": 550,
+      "priceUnit": "per tube",
+      "uses": ["psoriasis", "scalp psoriasis", "thick plaque", "scaly skin"],
+      "dosage": "Apply once or twice daily to affected areas",
+      "application": "Apply thin layer to plaques, can be used on scalp",
+      "sideEffects": ["skin thinning", "striae", "hypopigmentation"],
+      "contraindications": ["skin infection", "rosacea", "acne"],
+      "warnings": ["Not for long-term use", "Avoid large body areas"],
+      "tips": ["Effective for thick plaques", "Combination works well"],
+      "effectiveness": "High - potent for thick plaques and psoriasis"
+    },
+    {
+      "id": "skin_11_alt",
+      "name": "Coal Tar Solution 5%",
+      "category": "psoriasis",
+      "higherPrice": false,
+      "price": 180,
+      "priceUnit": "per bottle",
+      "uses": ["psoriasis", "eczema", "dandruff", "seborrheic dermatitis"],
+      "dosage": "Apply to affected areas or add to bath",
+      "application": "Apply directly or dilute in bath water",
+      "sideEffects": ["staining", "odor", "photosensitivity", "irritation"],
+      "contraindications": ["infected skin", "open wounds"],
+      "warnings": ["Can stain clothes/bedding", "Strong odor"],
+      "tips": ["Can be combined with other treatments", "Good for scalp"],
+      "effectiveness": "Medium - traditional treatment, helps reduce scaling",
+      "alternativeTo": "skin_11",
+      "alternativeReason": "Traditional more affordable option for psoriasis"
+    },
+    {
+      "id": "skin_12",
+      "name": "Hydroquinone 4% Cream",
+      "category": "skin_lightening",
+      "higherPrice": true,
+      "price": 750,
+      "priceUnit": "per tube",
+      "uses": ["melasma", "dark spots", "hyperpigmentation", "skin lightening", "age spots"],
+      "dosage": "Apply twice daily to affected areas",
+      "application": "Apply only to dark spots, avoid surrounding skin",
+      "sideEffects": ["irritation", "redness", "dryness", "ochronosis with long use"],
+      "contraindications": ["pregnancy", "breastfeeding", "hypersensitivity"],
+      "warnings": ["Use sunscreen during treatment", "Results in 4-8 weeks"],
+      "tips": ["Use with sunscreen SPF 30+", "Don't use for more than 3 months"],
+      "effectiveness": "High - most effective skin lightening agent"
+    },
+    {
+      "id": "skin_12_alt",
+      "name": "Kojic Acid Cream 2%",
+      "category": "skin_lightening",
+      "higherPrice": false,
+      "price": 280,
+      "priceUnit": "per tube",
+      "uses": ["dark spots", "melasma", "hyperpigmentation", "brightening", "uneven skin tone"],
+      "dosage": "Apply once or twice daily",
+      "application": "Apply to clean skin, can use all over or spot treatment",
+      "sideEffects": ["mild irritation", "sensitivity"],
+      "contraindications": ["sensitivity to kojic acid"],
+      "warnings": ["May cause irritation in sensitive skin", "Use sunscreen"],
+      "tips": ["Natural alternative", "Good for maintenance after hydroquinone"],
+      "effectiveness": "Medium-High - natural lightening agent",
+      "alternativeTo": "skin_12",
+      "alternativeReason": "Natural alternative, safer for long-term use"
+    },
+    {
+      "id": "skin_13",
+      "name": "Aloe Vera Gel 100%",
+      "category": "general_skin",
+      "higherPrice": false,
+      "price": 120,
+      "priceUnit": "per bottle",
+      "uses": ["sunburn", "minor burns", "skin irritation", "moisturizing", "after laser treatment"],
+      "dosage": "Apply as needed to affected areas",
+      "application": "Apply generous amount, reapply as needed",
+      "sideEffects": ["rare allergic reaction", "mild tingling"],
+      "contraindications": ["allergy to aloe"],
+      "warnings": ["For external use only"],
+      "tips": ["Keep in refrigerator for cooling effect", "Good for all skin types"],
+      "effectiveness": "High - soothing and healing for damaged skin"
+    },
+    {
+      "id": "skin_14",
+      "name": "Calamine Lotion",
+      "category": "general_skin",
+      "higherPrice": false,
+      "price": 60,
+      "priceUnit": "per bottle",
+      "uses": ["itching", "heat rash", "prickly heat", "insect bites", "mild sunburn"],
+      "dosage": "Apply as needed",
+      "application": "Shake well, apply with cotton or directly",
+      "sideEffects": ["very rare", "dryness with overuse"],
+      "contraindications": ["open wounds", "infected skin"],
+      "warnings": ["For external use only"],
+      "tips": ["Cooling relief", "Safe for children"],
+      "effectiveness": "High - quick relief for itching"
+    },
+    {
+      "id": "skin_15",
+      "name": "Cetrin / Cetirizine Tablet",
+      "category": "allergies",
+      "higherPrice": false,
+      "price": 180,
+      "priceUnit": "per strip (10 tablets)",
+      "uses": ["hives", "urticaria", "allergic skin rash", "itching due to allergy"],
+      "dosage": "1 tablet once daily",
+      "application": "Oral medication",
+      "sideEffects": ["mild drowsiness", "dry mouth", "headache"],
+      "contraindications": ["severe kidney disease"],
+      "warnings": ["May cause drowsiness", "Avoid driving if affected"],
+      "tips": ["Take at night if causes drowsiness", "Non-sedating option available"],
+      "effectiveness": "High - relieves itching and hives effectively"
+    }
+  ],
+  "skinConditions": {
+    "acne": {
+      "symptoms": ["pimples", "pustules", "blackheads", "whiteheads", "oily skin", "scars"],
+      "medicines": ["skin_1", "skin_2"],
+      "tips": [
+        "Don't touch your face frequently",
+        "Use non-comedogenic products",
+        "Wash face twice daily with gentle cleanser",
+        "Avoid squeezing pimples",
+        "Use oil-free moisturizers",
+        "Apply sunscreen daily"
+      ]
+    },
+    "eczema": {
+      "symptoms": ["dry skin", "itching", "redness", "inflammation", "flaky patches", "rough skin"],
+      "medicines": ["skin_3", "skin_4"],
+      "tips": [
+        "Moisturize frequently",
+        "Use mild, fragrance-free soaps",
+        "Avoid hot showers",
+        "Wear cotton clothing",
+        "Keep nails short to prevent scratching",
+        "Identify and avoid triggers"
+      ]
+    },
+    "ringworm": {
+      "symptoms": ["circular rash", "red ring", "itching", "scaly skin", "raised edges"],
+      "medicines": ["skin_5", "skin_6"],
+      "tips": [
+        "Keep affected area clean and dry",
+        "Don't share towels or clothes",
+        "Wash hands after touching affected area",
+        "Complete full course of treatment",
+        "Wash bedding regularly"
+      ]
+    },
+    "scabies": {
+      "symptoms": ["intense itching (worse at night)", "burrows", "rash", "small bumps"],
+      "medicines": ["skin_10"],
+      "tips": [
+        "Treat all household members",
+        "Wash all clothes and bedding in hot water",
+        "Vacuum mattresses and furniture",
+        "Avoid close contact until treated",
+        "Clean or seal non-washable items"
+      ]
+    },
+    "wart": {
+      "symptoms": ["rough bump", "black dots", "cauliflower-like appearance", "rough texture"],
+      "medicines": ["skin_9"],
+      "tips": [
+        "Don't pick at warts",
+        "Keep warts covered",
+        "Don't share personal items",
+        "Treatment may take weeks",
+        "File dead skin between treatments"
+      ]
+    },
+    "psoriasis": {
+      "symptoms": ["red patches", "silvery scales", "dry skin", "cracking", "thickened nails", "itching"],
+      "medicines": ["skin_11"],
+      "tips": [
+        "Moisturize regularly",
+        "Reduce stress",
+        "Avoid triggers (smoking, alcohol)",
+        "Sun exposure in moderation",
+        "Use humidifier in dry weather"
+      ]
+    },
+    "sunburn": {
+      "symptoms": ["red skin", "pain", "blisters", "swelling", "peeling", "fever"],
+      "medicines": ["skin_13"],
+      "tips": [
+        "Take cool baths",
+        "Apply aloe vera gel",
+        "Use moisturizer",
+        "Stay hydrated",
+        "Wear loose clothing",
+        "Avoid sun until healed"
+      ]
+    },
+    "hives": {
+      "symptoms": ["raised itchy welts", "redness", "swelling", "temporary marks"],
+      "medicines": ["skin_15"],
+      "tips": [
+        "Identify and avoid triggers",
+        "Apply cool compress",
+        "Wear loose clothing",
+        "Take antihistamine",
+        "Avoid hot showers"
+      ]
+    },
+    "insect_bites": {
+      "symptoms": ["red bump", "itching", "swelling", "pain", "warmth"],
+      "medicines": ["skin_14"],
+      "tips": [
+        "Apply cold compress",
+        "Don't scratch",
+        "Use anti-itch creams",
+        "Take antihistamine if needed",
+        "Watch for signs of infection"
+      ]
+    },
+    "minor_burns": {
+      "symptoms": ["redness", "pain", "blistering", "swelling"],
+      "medicines": ["skin_8", "skin_13"],
+      "tips": [
+        "Cool running water for 10-20 minutes",
+        "Don't apply ice directly",
+        "Cover with non-stick bandage",
+        "Don't break blisters",
+        "Take pain reliever if needed"
+      ]
+    },
+    "scar": {
+      "symptoms": ["raised or depressed area", "discoloration", "tough texture"],
+      "medicines": ["skin_7"],
+      "tips": [
+        "Start treatment early",
+        "Use silicone gel sheets",
+        "Massage the scar",
+        "Protect from sun",
+        "Be patient - takes months"
+      ]
+    },
+    "dark_spots": {
+      "symptoms": ["brown patches", "uneven skin tone", "melasma", "age spots", "post-acne marks"],
+      "medicines": ["skin_12"],
+      "tips": [
+        "Use sunscreen daily",
+        "Avoid direct sun",
+        "Use vitamin C serum",
+        "Be patient - takes months",
+        "Consider professional treatments"
+      ]
+    }
+  },
+  "routines": {
+    "acne": {
+      "morning": [
+        "Cleanse face with gentle cleanser",
+        "Apply benzoyl peroxide or adapalene (if prescribed)",
+        "Apply oil-free moisturizer with SPF 30+"
+      ],
+      "afternoon": [
+        "Blot oil from face if needed",
+        "Avoid touching face"
+      ],
+      "evening": [
+        "Remove makeup with gentle makeup remover",
+        "Cleanse face thoroughly",
+        "Apply acne treatment medication",
+        "Apply non-comedogenic moisturizer"
+      ]
+    },
+    "eczema": {
+      "morning": [
+        "Apply moisturizer within 3 minutes of bathing",
+        "Dress in soft cotton clothing",
+        "Apply prescription creams if needed"
+      ],
+      "afternoon": [
+        "Reapply moisturizer as needed",
+        "Avoid sweating"
+      ],
+      "evening": [
+        "Lukewarm bath for 10-15 minutes",
+        "Use mild, fragrance-free soap",
+        "Pat dry, apply moisturizer immediately",
+        "Apply prescription treatments",
+        "Keep bedroom cool and humidified"
+      ]
+    },
+    "fungal_infection": {
+      "morning": [
+        "Clean and dry affected area",
+        "Apply antifungal cream"
+      ],
+      "afternoon": [
+        "Keep area dry and exposed to air",
+        "Change socks/underwear if needed"
+      ],
+      "evening": [
+        "Clean and dry area thoroughly",
+        "Apply antifungal treatment",
+        "Wear loose cotton clothing",
+        "Wash all towels and clothes"
+      ]
+    },
+    "general_skin": {
+      "morning": [
+        "Cleanse face with appropriate cleanser",
+        "Apply moisturizer",
+        "Apply sunscreen SPF 30+"
+      ],
+      "afternoon": [
+        "Reapply sunscreen if outdoors",
+        "Stay hydrated"
+      ],
+      "evening": [
+        "Remove all makeup",
+        "Cleanse face thoroughly",
+        "Apply treatments/medications",
+        "Apply night moisturizer"
+      ]
+    }
+  }
+}

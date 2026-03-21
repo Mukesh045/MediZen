@@ -1,0 +1,354 @@
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Ibuprofen",
+      "category": "pain_relief",
+      "uses": ["headache", "fever", "inflammation", "pain", "toothache", "menstrual_cramps", "muscle_pain"],
+      "dosage": "200-400mg every 4-6 hours",
+      "maxDaily": "1200mg",
+      "sideEffects": ["stomach upset", "dizziness", "heartburn", "nausea"],
+      "contraindications": ["ulcer", "kidney disease", "heart failure", "bleeding disorders"],
+      "warnings": ["Take with food to reduce stomach irritation", "Avoid alcohol"]
+    },
+    {
+      "id": "2",
+      "name": "Paracetamol (Acetaminophen)",
+      "category": "pain_relief",
+      "uses": ["headache", "fever", "pain", "toothache", "menstrual_cramps", "cold_symptoms"],
+      "dosage": "500-1000mg every 4-6 hours",
+      "maxDaily": "4000mg",
+      "sideEffects": ["rare with normal use", "liver damage with overdose"],
+      "contraindications": ["liver disease", "heavy alcohol use"],
+      "warnings": ["Do not exceed recommended dose", "Avoid with alcohol"]
+    },
+    {
+      "id": "3",
+      "name": "Aspirin",
+      "category": "pain_relief",
+      "uses": ["headache", "fever", "inflammation", "pain", "heart_attack_prevention"],
+      "dosage": "300-900mg every 4-6 hours",
+      "maxDaily": "4000mg",
+      "sideEffects": ["stomach irritation", "bleeding", "ringing in ears"],
+      "contraindications": ["bleeding disorders", "stomach ulcers", "children under 16", "asthma"],
+      "warnings": ["Do not give to children (Reye's syndrome risk)", "Take with food"]
+    },
+    {
+      "id": "4",
+      "name": "Amoxicillin",
+      "category": "antibiotic",
+      "uses": ["bacterial_infection", "ear_infection", "throat_infection", "pneumonia", "uti"],
+      "dosage": "250-500mg every 8 hours",
+      "maxDaily": "1500mg",
+      "sideEffects": ["nausea", "vomiting", "diarrhea", "rash"],
+      "contraindications": ["penicillin allergy"],
+      "warnings": ["Complete full course even if feeling better"]
+    },
+    {
+      "id": "5",
+      "name": "Azithromycin",
+      "category": "antibiotic",
+      "uses": ["respiratory_infection", "ear_infection", "skin_infection", "sti"],
+      "dosage": "500mg on day 1, then 250mg daily",
+      "maxDaily": "500mg",
+      "sideEffects": ["nausea", "diarrhea", "abdominal pain", "headache"],
+      "contraindications": ["liver disease", "myasthenia gravis"],
+      "warnings": ["Take on empty stomach", "May cause heart rhythm issues"]
+    },
+    {
+      "id": "6",
+      "name": "Dextromethorphan",
+      "category": "cough_suppressant",
+      "uses": ["dry_cough", "cough"],
+      "dosage": "10-20mg every 4 hours",
+      "maxDaily": "120mg",
+      "sideEffects": ["dizziness", "drowsiness", "nausea"],
+      "contraindications": ["children under 2", "asthma"],
+      "warnings": ["May cause drowsiness", "Avoid while driving"]
+    },
+    {
+      "id": "7",
+      "name": "Guaifenesin",
+      "category": "expectorant",
+      "uses": ["chest_congestion", "cough", "mucus"],
+      "dosage": "200-400mg every 4 hours",
+      "maxDaily": "2400mg",
+      "sideEffects": ["dizziness", "headache", "nausea"],
+      "contraindications": [],
+      "warnings": ["Drink plenty of water"]
+    },
+    {
+      "id": "8",
+      "name": "Loratadine",
+      "category": "antihistamine",
+      "uses": ["allergies", "hay_fever", "itching", "hives", "runny_nose"],
+      "dosage": "10mg once daily",
+      "maxDaily": "10mg",
+      "sideEffects": ["drowsiness (less than older antihistamines)", "headache", "dry mouth"],
+      "contraindications": ["severe liver disease"],
+      "warnings": ["May cause drowsiness in some", "Use caution while driving"]
+    },
+    {
+      "id": "9",
+      "name": "Cetirizine",
+      "category": "antihistamine",
+      "uses": ["allergies", "hay_fever", "itching", "hives", "runny_nose"],
+      "dosage": "5-10mg once daily",
+      "maxDaily": "10mg",
+      "sideEffects": ["drowsiness", "dry mouth", "fatigue", "headache"],
+      "contraindications": ["severe kidney disease"],
+      "warnings": ["May cause drowsiness", "Avoid alcohol"]
+    },
+    {
+      "id": "10",
+      "name": "Omeprazole",
+      "category": "ppi",
+      "uses": ["acid_reflux", "gerd", "heartburn", "stomach_ulcer", "gerd"],
+      "dosage": "20-40mg once daily before breakfast",
+      "maxDaily": "40mg",
+      "sideEffects": ["headache", "diarrhea", "constipation", "nausea"],
+      "contraindications": ["omeprazole allergy"],
+      "warnings": ["Long-term use may affect nutrient absorption"]
+    },
+    {
+      "id": "11",
+      "name": "Ranitidine",
+      "category": "h2_blocker",
+      "uses": ["acid_reflux", "heartburn", "stomach_ulcer", "gerd"],
+      "dosage": "150mg twice daily",
+      "maxDaily": "300mg",
+      "sideEffects": ["headache", "dizziness", "constipation", "diarrhea"],
+      "contraindications": ["kidney disease", "liver disease"],
+      "warnings": ["May interact with other medications"]
+    },
+    {
+      "id": "12",
+      "name": "Metformin",
+      "category": "diabetes",
+      "uses": ["type2_diabetes", "high_blood_sugar", "pcos"],
+      "dosage": "500mg twice daily with meals",
+      "maxDaily": "2000mg",
+      "sideEffects": ["nausea", "vomiting", "diarrhea", "stomach upset", "metallic taste"],
+      "contraindications": ["kidney disease", "liver disease", "alcohol abuse", "metabolic acidosis"],
+      "warnings": ["Take with food to reduce stomach upset", "Regular kidney function monitoring required"]
+    },
+    {
+      "id": "13",
+      "name": "Amlodipine",
+      "category": "blood_pressure",
+      "uses": ["high_blood_pressure", "chest_pain", "angina"],
+      "dosage": "5-10mg once daily",
+      "maxDaily": "10mg",
+      "sideEffects": ["swelling in ankles", "dizziness", "flushing", "headache"],
+      "contraindications": ["severe low blood pressure", "aortic stenosis"],
+      "warnings": ["May cause dizziness", "Avoid standing quickly"]
+    },
+    {
+      "id": "14",
+      "name": "Atorvastatin",
+      "category": "statin",
+      "uses": ["high_cholesterol", "heart_disease_prevention"],
+      "dosage": "10-80mg once daily",
+      "maxDaily": "80mg",
+      "sideEffects": ["muscle pain", "weakness", "headache", "joint pain"],
+      "contraindications": ["liver disease", "pregnancy"],
+      "warnings": ["Report unexplained muscle pain", "Avoid grapefruit"]
+    },
+    {
+      "id": "15",
+      "name": "Salicylic Acid",
+      "category": "topical",
+      "uses": ["acne", "warts", "calluses", "skin_tags"],
+      "dosage": "Apply to affected area 1-3 times daily",
+      "maxDaily": "As directed",
+      "sideEffects": ["skin irritation", "dryness", "peeling"],
+      "contraindications": ["diabetes", "poor circulation", "infected skin"],
+      "warnings": ["For external use only", "Avoid healthy skin"]
+    },
+    {
+      "id": "16",
+      "name": "Hydrocortisone",
+      "category": "topical",
+      "uses": ["skin_inflammation", "itching", "eczema", "rash", "dermatitis"],
+      "dosage": "Apply thin layer 1-4 times daily",
+      "maxDaily": "As directed",
+      "sideEffects": ["skin thinning", "burning", "stinging", "redness"],
+      "contraindications": ["skin infection", "rosacea", "acne"],
+      "warnings": ["Do not use on face for extended period", "Avoid eyes"]
+    },
+    {
+      "id": "17",
+      "name": "Loperamide",
+      "category": "antidiarrheal",
+      "uses": ["diarrhea", "travelers_diarrhea"],
+      "dosage": "2mg after first loose stool, then 2mg after each",
+      "maxDaily": "8mg",
+      "sideEffects": ["constipation", "dizziness", "drowsiness", "nausea"],
+      "contraindications": ["bloody diarrhea", "colitis", "children under 2"],
+      "warnings": ["May cause drowsiness", "Do not use for more than 2 days"]
+    },
+    {
+      "id": "18",
+      "name": "Pseudoephedrine",
+      "category": "decongestant",
+      "uses": ["nasal_congestion", "sinus_congestion", "cold_congestion"],
+      "dosage": "30-60mg every 4-6 hours",
+      "maxDaily": "240mg",
+      "sideEffects": ["insomnia", "nervousness", "dizziness", "increased blood pressure"],
+      "contraindications": ["severe hypertension", "heart disease", "thyroid disease", "glaucoma"],
+      "warnings": ["May cause insomnia", "Limited in some countries"]
+    },
+    {
+      "id": "19",
+      "name": "Phenylephrine",
+      "category": "decongestant",
+      "uses": ["nasal_congestion", "sinus_congestion", "low_blood_pressure"],
+      "dosage": "10mg every 4 hours",
+      "maxDaily": "60mg",
+      "sideEffects": ["headache", "dizziness", "nervousness", "increased blood pressure"],
+      "contraindications": ["severe hypertension", "heart disease", "glaucoma"],
+      "warnings": ["May cause increased blood pressure"]
+    },
+    {
+      "id": "20",
+      "name": "Montelukast",
+      "category": "asthma",
+      "uses": ["asthma", "allergic_rhinitis", "exercise_induced_bronchospasm"],
+      "dosage": "10mg once daily in evening",
+      "maxDaily": "10mg",
+      "sideEffects": ["headache", "stomach pain", "diarrhea", "mood changes"],
+      "contraindications": ["phenylketonuria (chewable)"],
+      "warnings": ["May cause mood/behavior changes", "Report psychiatric symptoms"]
+    }
+  ],
+  "symptoms": {
+    "headache": ["1", "2", "3"],
+    "fever": ["1", "2", "3"],
+    "pain": ["1", "2", "3"],
+    "inflammation": ["1", "3"],
+    "toothache": ["1", "2"],
+    "menstrual_cramps": ["1", "2"],
+    "muscle_pain": ["1", "3"],
+    "bacterial_infection": ["4", "5"],
+    "ear_infection": ["4", "5"],
+    "throat_infection": ["4", "5"],
+    "pneumonia": ["4", "5"],
+    "uti": ["4", "5"],
+    "dry_cough": ["6"],
+    "chest_congestion": ["7"],
+    "mucus": ["7"],
+    "allergies": ["8", "9"],
+    "hay_fever": ["8", "9"],
+    "itching": ["8", "9", "16"],
+    "hives": ["8", "9"],
+    "runny_nose": ["8", "9", "18", "19"],
+    "acid_reflux": ["10", "11"],
+    "gerd": ["10", "11"],
+    "heartburn": ["10", "11"],
+    "stomach_ulcer": ["10", "11"],
+    "type2_diabetes": ["12"],
+    "high_blood_sugar": ["12"],
+    "high_blood_pressure": ["13"],
+    "chest_pain": ["13"],
+    "angina": ["13"],
+    "high_cholesterol": ["14"],
+    "acne": ["15"],
+    "warts": ["15"],
+    "calluses": ["15"],
+    "skin_inflammation": ["16"],
+    "eczema": ["16"],
+    "rash": ["16"],
+    "dermatitis": ["16"],
+    "diarrhea": ["17"],
+    "travelers_diarrhea": ["17"],
+    "nasal_congestion": ["18", "19"],
+    "sinus_congestion": ["18", "19"],
+    "cold_congestion": ["18", "19"],
+    "asthma": ["20"],
+    "allergic_rhinitis": ["20"]
+  },
+  "skinConditions": {
+    "acne": {
+      "medicines": ["15", "16"],
+      "recommendations": "Keep skin clean, avoid touching face, use non-comedogenic products"
+    },
+    "eczema": {
+      "medicines": ["16"],
+      "recommendations": "Moisturize regularly, avoid triggers, use gentle soaps"
+    },
+    "rash": {
+      "medicines": ["16"],
+      "recommendations": "Identify and avoid triggers, keep area clean and dry"
+    },
+    "hives": {
+      "medicines": ["8", "9"],
+      "recommendations": "Avoid known triggers, apply cool compress"
+    },
+    "wart": {
+      "medicines": ["15"],
+      "recommendations": "Keep area covered, do not pick at warts"
+    },
+    "cold_sore": {
+      "medicines": [],
+      "recommendations": "Apply ice, avoid triggers like sun exposure, use lip balm with SPF"
+    },
+    "psoriasis": {
+      "medicines": ["16"],
+      "recommendations": "Moisturize, reduce stress, avoid triggers"
+    },
+    "rosacea": {
+      "medicines": [],
+      "recommendations": "Avoid triggers (spicy foods, alcohol, extreme temperatures)"
+    },
+    "impetigo": {
+      "medicines": ["4"],
+      "recommendations": "Keep lesions clean and covered, wash hands frequently"
+    },
+    "cellulitis": {
+      "medicines": ["4", "5"],
+      "recommendations": "Seek medical attention, keep affected area elevated"
+    }
+  },
+  "routines": {
+    "general_health": {
+      "morning": ["Wake up early (6-7 AM)", "Drink warm water with lemon", "Light exercise or stretching (15-30 min)", "Healthy breakfast with protein and fiber"],
+      "afternoon": ["Balanced lunch", "Short walk after meals", "Stay hydrated (8 glasses water)", "Take prescribed medications"],
+      "evening": ["Light dinner (before 7 PM)", "Relaxation time (reading, meditation)", "Avoid screens 1 hour before bed", "Sleep by 10-11 PM"]
+    },
+    "headache": {
+      "morning": ["Rest in dark, quiet room", "Stay hydrated", "Light breakfast if tolerable"],
+      "afternoon": ["Take pain medication if needed", "Rest and avoid bright lights", "Gentle neck stretches"],
+      "evening": ["Continue rest", "Avoid screen time", "Gentle massage if helpful", "Early sleep"]
+    },
+    "cold_flu": {
+      "morning": ["Rest and stay in bed", "Drink warm fluids (soup, tea)", "Take vitamin C"],
+      "afternoon": ["Continue rest", "Stay hydrated", "Use humidifier"],
+      "evening": ["Warm bath or shower", "Elevate head while sleeping", "Early bedtime"]
+    },
+    "allergies": {
+      "morning": ["Check pollen count", "Shower and change clothes after outdoor activity", "Take antihistamine"],
+      "afternoon": ["Avoid outdoor activities when pollen is high", "Keep windows closed", "Use air purifier"],
+      "evening": ["Wash face and hands frequently", "Keep bedroom free of allergens", "Vacuum regularly"]
+    },
+    "digestive": {
+      "morning": ["Drink warm water", "Light breakfast", "Avoid coffee on empty stomach"],
+      "afternoon": ["Small, frequent meals", "Avoid spicy/fatty foods", "Walk after meals"],
+      "evening": ["Light dinner", "No eating 3 hours before bed", "Elevate head if acid reflux"]
+    },
+    "skin_care": {
+      "morning": ["Gentle cleanser", "Moisturizer", "Sunscreen SPF 30+"],
+      "afternoon": ["Reapply sunscreen if needed", "Avoid touching face"],
+      "evening": ["Remove makeup", "Gentle cleanser", "Treatment products", "Night moisturizer"]
+    },
+    "diabetes": {
+      "morning": ["Check blood sugar", "Low glycemic breakfast", "Take medications with breakfast"],
+      "afternoon": ["Balanced lunch with protein", "Light afternoon snack", "Monitor blood sugar"],
+      "evening": ["Light dinner", "Check blood sugar before bed", "Avoid late-night snacking"]
+    },
+    "blood_pressure": {
+      "morning": ["Check blood pressure", "Low sodium breakfast", "Light exercise like walking"],
+      "afternoon": ["Low sodium lunch", "Stress management", "Take medications"],
+      "evening": ["Low sodium dinner", "Avoid alcohol", "Relaxation exercises", "Early sleep"]
+    }
+  }
+}
