@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MediZen/static/css/main.44e642fe.css",
+    "main.js": "/MediZen/static/js/main.6ee71514.js",
+    "static/js/361.4eb0b149.chunk.js": "/MediZen/static/js/361.4eb0b149.chunk.js",
+    "static/js/453.a61034d1.chunk.js": "/MediZen/static/js/453.a61034d1.chunk.js",
+    "index.html": "/MediZen/index.html",
+    "main.44e642fe.css.map": "/MediZen/static/css/main.44e642fe.css.map",
+    "main.6ee71514.js.map": "/MediZen/static/js/main.6ee71514.js.map",
+    "361.4eb0b149.chunk.js.map": "/MediZen/static/js/361.4eb0b149.chunk.js.map",
+    "453.a61034d1.chunk.js.map": "/MediZen/static/js/453.a61034d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e642fe.css",
+    "static/js/main.6ee71514.js"
+  ]
+}
