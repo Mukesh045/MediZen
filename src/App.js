@@ -69,7 +69,7 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/favicon.png" alt="MediZen" className="header-logo" />
+          <img src="./logo.svg" alt="MediZen" className="header-logo" />
           <h1>MediZen</h1>
           <p>AI-Powered Medicine Advisor</p>
         </motion.div>
